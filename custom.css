@@ -1,0 +1,446 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+
+    .navbar-brand {
+        font-family: 'Exo', sans-serif;
+        font-weight: 700;
+        color: #04E0D8;
+    }
+    
+    .navbar-brand:hover {
+        color: #aaf8ca;
+      }
+
+    .nav-link {
+        font-family: 'Exo', sans-serif;
+        font-weight: 400;
+        color: #04E0D8;
+    }
+
+    .nav-link:hover {
+        color: #aaf8ca;
+    }
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-custom {
+    background-color: #14142c;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #060620;
+    color: #ffffff;
+}
+
+p{
+    text-align: justify;
+    color: #ffffff;
+}
+
+.a {
+    text-decoration: none;
+}
+
+.container2 {
+    width: 70%;
+    margin: 0 auto;
+    font-family: 'Exo', sans-serif;
+}
+
+.fw-bolder {
+    font-family: 'Sansita Swashed', cursive;
+}
+
+.product_list {
+    height: 280px;
+}
+
+.btn-purple {
+    background-color: #595988;
+    color: white;
+    font-family: 'Exo', sans-serif;
+    font-weight: bold;
+}
+
+.cyan {
+    color: #04E0D8;
+}
+
+.bg-purple {
+    background-color: #191937;
+}
+
+.bg-lightpurple {
+    background-color: #5c5c8e;;
+}
+
+.bg-cyan {
+    background-color: #04E0D8;
+}
+
+.bg-cream {
+    background-color: #FCEFB4;
+}
+
+.bg-gold {
+    background-color: #f89904;
+    color: #cddcfe;
+}
+
+.btn-purple:hover {
+    background-color: #04E0D8;
+    color: black;
+}
+
+.container-fluid h1{
+    font-family: 'Exo', sans-serif;
+}
+
+.boxes {
+    color: ffffff;
+    background-color: #191937;
+    padding: 10px;
+    width: 100%;
+}
+
+.boxes h1 {
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 50px;
+}
+
+.boxes .container {
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.box {
+    flex: 1;
+    display:flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 15px;
+    transition: all 0.3s;
+}
+
+.box:hover {
+    transform: scale(1.15);
+}
+
+.img-hv:hover {
+    transition: all 0.3s;
+    transform: scale(1.40);
+}
+
+.img-hv:active {
+    transition: all 0.3s;
+    transform: scale(1.40);
+}
+
+.card:hover {
+    transition: all 0.3s;
+    transform: scale(1.1);
+}
+
+.card:active {
+    transition: all 0.3s;
+    transform: scale(1.1);
+}
+
+.bord {
+    border: 7px solid #5c5c8e;
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.darkred {
+    background-color:rgb(61, 90, 145);
+    color: white;
+}
+
+.darkred:hover{
+    background-color: #3c76bd;
+    transition: 1s;
+}
+
+.darkblue {
+    background-color: #1c1c3c;
+    color: white;
+    font-family: 'Catamaran', sans-serif;
+}
+
+.pins {
+    width: 350px;
+    object-fit: cover;
+    border: 10px solid #5c5c8e;
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+    border-radius: 450px;
+    background-color: #5c5c8e;
+}
+
+.cover{
+    object-fit: cover;
+    height: 10%;
+}
+
+.tshirt {
+    width: 350px;
+    object-fit: cover;
+}
+
+.tote {
+    width: 550px;
+    object-fit: cover;
+}
+
+
+.boxes h1 {
+    text-align: center;
+    padding: 20px;
+}
+
+
+.box h3 {
+    text-align: center;
+}
+
+.row h3 {
+    text-align: left;
+}
+
+/* About */
+.about-title {
+    font-family: 'Exo', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    padding: 15px;
+}
+
+.about-text {
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.about-title2 {
+    font-family: 'Exo', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    padding: 15px;
+    color: #382453;
+}
+
+.about-text2 {
+    font-family: 'Ubuntu Mono', monospace;
+    color: #060620;
+    font-size: 20px;
+    padding: 15px;
+}
+
+/* Products */
+
+.container h3.fw-medium.text-center {
+    font-family: 'Ubuntu Mono', monospace;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 25px;
+}
+.modal-header h1.text-white.fw-bold {
+    font-family: 'Exo', sans-serif;
+    font-weight: bold;
+}
+
+.modal-body h1.text-white.fw-bold {
+    font-family: 'Exo', sans-serif;
+    font-weight: bold;
+}
+
+p.text-white.text-center {
+    font-family: 'Ubuntu Mono', monospace;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 5px;
+}
+
+.card-title.text-center h4, .card-title.text-center h2 {
+    font-family: 'Exo', sans-serif;
+    font-weight: bold;
+}
+
+.text-center.fw-bold.display-4.mb-5.mt-5.bg-purple.py-3.mx-5 {
+    font-family: 'Exo', sans-serif;
+    font-weight: bold;
+}
+
+/* Group Members.html */
+.main-members {
+    text-align: center;
+    font-family: 'Exo', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.description {
+    text-align: center;
+    font-family: 'Ubuntu Mono', monospace;
+    font-weight: 500;
+    font-size: 25px;
+    margin: 25px;
+}
+
+.cards {
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+.card {
+    margin: 10px;
+}
+
+.card-name {
+    font-family: 'Exo', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    color:#060620;
+}
+.card-text {
+    font-family: 'Ubuntu Mono', monospace;
+    color:#060620;
+    font-size: 15px;
+}
+
+.card-title {
+    font-family: 'Exo', sans-serif;
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+    color:#060620;
+}
+
+.website-members {
+    width: 100%;
+    margin: 0px auto;
+}
+
+.website-members .container {
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.web-members {
+    color: white;
+    font-size: 30px;
+    margin-top: 30px;
+    font-family: 'Exo', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+  
+.circle-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px; 
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid white; 
+    overflow: hidden;
+}
+  
+.circle-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.person-card {
+    margin: 30px;
+}
+  
+.person-name {
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    font-family: 'Exo', sans-serif;
+    font-weight: bold;
+}
+  
+
+@media (max-width:1600px) {
+    .boxes .container {
+        flex-wrap: wrap;
+    }
+    
+    .boxes .card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .container .d-flex {
+        flex-wrap: wrap;
+    }
+    
+    .container .d-flex {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .website-members .container {
+        flex-wrap: wrap;
+    }
+
+    .website-members .d-flex {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width:950px) {
+    .navbar .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+
+    .boxes .container{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .website-members .container {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+}
+
+@media (max-width:550px) {
+    .boxes .container{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+}
